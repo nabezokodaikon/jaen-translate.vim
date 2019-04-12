@@ -4,4 +4,4 @@
 " License: MIT license
 "=============================================================================
 
-command! -nargs=0 JaEnTranslate call jaen#translate()
+command! -nargs=0 -range JaEnTranslate <line1>,<line2>call jaen#translate()
