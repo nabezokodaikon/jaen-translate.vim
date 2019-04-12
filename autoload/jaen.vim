@@ -32,9 +32,7 @@ function! jaen#translate() range
     let cmd = 'trans -b -show-original n -sl=' . sl . ' -tl=' . tl . ' "' . strline . '"'
     let ret = system(cmd)
 
-    if len(ret) > 0
-        redi @">
-        echon ret
-        redi END
-    endif
+    redi @">
+    echon ret
+    redi END
 endfunction
