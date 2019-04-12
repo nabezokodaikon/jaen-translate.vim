@@ -4,13 +4,6 @@
 " License: MIT license
 "=============================================================================
 
-function! s:getSelectedText()
-    let tmp = @@
-    silent normal = gvy
-    let selected = @@
-    return selected
-endfunction
-
 function! s:getSourceLang(word)
   let all = strlen(a:word)
   let eng = strlen(substitute(a:word, '[^\t -~]', '', 'g'))
@@ -33,8 +26,6 @@ function! jaen#translate() range
       endif
       let curline = curline + 1
     endwhile
-
-    " let word = s:getSelectedText()
 
     let sl = s:getSourceLang(strline)
     let tl = s:getTransrateLang(sl)
