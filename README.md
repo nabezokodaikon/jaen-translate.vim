@@ -9,7 +9,7 @@ repo = 'nabezokodaikon/jaen-translate.vim'
 ```
 
 ## Usage
-1. Select the string to translate.
+1. Select the text to translate.
 1. Running `JaEnTranslate` command.
 1. The translated text is output.
   * Translated text is added to yank.
