@@ -13,9 +13,6 @@ vnoremap <silent> <Leader>t :<C-u>JaEnTranslate<CR>
 ## Requirements
 [Translate Shell](https://github.com/soimort/translate-shell)
 
-## License
-MIT
-
 ## CREDITS
 [Translate Shell](https://github.com/soimort/translate-shell)
 
