@@ -10,13 +10,14 @@ repo = 'nabezokodaikon/jaen-translate.vim'
 
 ## Usage
 1. Select the text to translate.
-1. Running `JaEnTranslate` command.
+1. Running `TranslateJa2En` or `TranslateEn2Ja` command.
 1. The translated text is output.
   * Translated text is added to yank.
 
 ## Example
 ```
-vnoremap <silent> <Leader>t :<C-u>JaEnTranslate<CR>
+vnoremap <silent> <Leader>t :<C-u>TranslateJa2En<CR>
+vnoremap <silent> <Leader>T :<C-u>TranslateEn2Ja<CR>
 ```
 
 ## Requirements
