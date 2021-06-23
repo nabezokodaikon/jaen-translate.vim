@@ -9,4 +9,5 @@ if exists('g:loaded_jaen_translate')
 endif
 let g:loaded_jaen_translate = 1
 
-command! -nargs=0 JaEnTranslate call jaen#translate()
+command! -nargs=0 TranslateJa2En call translate#ja2en()
+command! -nargs=0 TranslateEn2Ja call translate#en2ja()
